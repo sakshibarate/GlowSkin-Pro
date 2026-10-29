@@ -1,0 +1,12 @@
+<?php require 'config.php'; $page_title='Personalised skincare'; require 'includes/header.php'; ?>
+<section class="container hero">
+ <div><div class="eyebrow">Your skin, understood</div><h1>A more thoughtful way to care for your skin.</h1><p>Upload a skin photo, complete a guided questionnaire, review a personalised educational profile, explore routine ideas, and keep every assessment organised in one calm, professional space.</p>
+ <div class="hero-actions"><a class="btn btn-primary" href="<?= is_logged_in()?'analysis.php':'register.php' ?>">Create my skin profile ↗</a><a class="btn btn-outline" href="recommendations.php">Explore recommendations</a></div>
+ <div class="trust-row"><span>Photo upload + questionnaire</span><span>Personalised routine guidance</span><span>Saved assessment history</span></div></div>
+ <div class="hero-art"><div class="hero-bubble">A routine that feels like you</div></div>
+</section>
+<section class="section section-soft"><div class="container"><div class="section-title"><div class="eyebrow">How it works</div><h2>Small steps. Better-informed choices.</h2><p>GlowSkin Pro turns your answers into a practical starting point for everyday skincare. It is educational guidance, not a medical diagnosis.</p></div>
+ <div class="feature-grid"><article class="feature-card"><div class="feature-icon">✦</div><h3>01. Add your photo and context</h3><p>Upload a clear image, then answer questions about skin feel, concerns, sensitivity, environment and routine habits.</p></article><article class="feature-card"><div class="feature-icon">◌</div><h3>02. Review your profile</h3><p>See a questionnaire-based skin-feel estimate, your uploaded photo reference, and practical routine suggestions.</p></article><article class="feature-card"><div class="feature-icon">♡</div><h3>03. Keep your history organised</h3><p>Save assessments, revisit previous reports and compare your questionnaire responses over time.</p></article></div>
+</div></section>
+<section class="container section"><div class="section-title"><div class="eyebrow">Designed for real life</div><h2>Simple, useful, and personal.</h2><p>Start with the essentials: gentle cleansing, moisturising, sun protection, and paying attention to how your skin responds.</p><a class="btn btn-primary" href="<?= is_logged_in()?'analysis.php':'register.php' ?>">Get started</a></div></section>
+<?php require 'includes/footer.php'; ?>
