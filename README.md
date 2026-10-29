@@ -1,6 +1,6 @@
 # GlowSkin Pro — Skin Profile & Skincare Recommendation System
 
-**MCA-level PHP/MySQL academic project**  
+**PHP/MySQL academic project**  
 Stack: PHP 8+, MySQL/MariaDB, HTML5, CSS3, JavaScript, Apache (XAMPP).
 
 ## What this project does
